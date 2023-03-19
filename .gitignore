@@ -1,0 +1,14 @@
+# Ignore config.ini
+config.ini
+
+# Ignore macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Icon files
+Icon
+._*
+
+# Ignore .idea directory
+.idea/
