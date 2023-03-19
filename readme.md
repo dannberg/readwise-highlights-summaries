@@ -7,8 +7,8 @@ I created this because I'm so bad at remembering to post on Mastodon, and I figu
 ## Prerequisites
 
 1. Python 3.6 or higher
-2. A Readwise account with an API key
-3. An OpenAI account with an API key
+2. A [Readwise](https://readwise.io/) account with an API key
+3. An [OpenAI](https://platform.openai.com/) account with an API key
 4. An email account with SMTP access
 
 ## Installation
@@ -54,3 +54,5 @@ You will receive an email with your latest highlights and generated tweet summar
 ## Note
 
 This script is intended for educational purposes only. Please ensure you comply with the terms of service of the respective APIs.
+
+This code was written with assistance from OpenAI's [GPT-4](https://openai.com/product/gpt-4).
