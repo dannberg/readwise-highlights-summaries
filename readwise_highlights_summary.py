@@ -32,7 +32,6 @@ def fetch_highlights():
     highlights_data = response.json()["results"]
     return highlights_data
 
-
 def summarize_highlights(highlights_data):
     url = 'https://api.openai.com/v1/engines/text-davinci-002/completions'
     headers = {
