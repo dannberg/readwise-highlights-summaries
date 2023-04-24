@@ -41,7 +41,7 @@ def summarize_highlights(highlights_data):
     summaries_data = []
 
     for highlight in highlights_data:
-        prompt = f"Please write a snarky, humorous tweet summarizing the following statement: \"{highlight['text']}\""
+        prompt = f"The following is an excerpt from a news article. It has been highlighted because it represents a key point from the article. Compose a tweet espousing the key point that this excerpt is making: \"{highlight['text']}\""
         data = {'prompt': prompt, 'max_tokens': 280}
 
         response = requests.post(url, headers=headers, json=data)
